@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-top: 35px;
+  color: black;
+}
+h2 {
+  color: black;
+}
+.container {
+  color: #828282;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+input,
+#country {
+  border: none;
+  outline: none;
+}
+select {
+  width: 8rem;
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+.input {
+  border: 1px solid #828282;
+  height: 2rem;
+  width: 25rem;
+  border-radius: 12px;
+  font-size: 1.4rem;
+  padding: 0.2rem 0.5rem;
+  margin: 0.6rem 0;
+}
+i {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+.mail,
+.name {
+  margin-top: 1rem;
+}
+.contact,
+.shipping {
+  margin-bottom: 3rem;
+}
+.shopping {
+  border: 1px solid red;
+  height: 50vh;
+  width: 25rem;
+}
+footer {
+  width: 100px;
+  margin: auto;
+}
+footer button {
+  height: 2.2rem;
+  width: 5rem;
+}
+.last {
+  display: flex;
+}
+.turkey {
+  width: 10rem;
+  margin-right: 1rem;
+}
+.posta {
+  width: 12rem;
+}
+.info {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
