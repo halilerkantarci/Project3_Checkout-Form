@@ -26,6 +26,7 @@ input,
   border: none;
   outline: none;
 }
+
 select {
   width: 8rem;
   padding: 0.5rem 0 0.5rem 2rem;
@@ -54,13 +55,10 @@ i {
 }
 
 footer {
-  width: 100px;
+  width: 1px;
   margin: auto;
 }
-footer button {
-  height: 2.2rem;
-  width: 5rem;
-}
+
 .last {
   display: flex;
 }
@@ -69,13 +67,14 @@ footer button {
   margin-right: 1rem;
 }
 .posta {
-  width: 12rem;
+  width: 12.8rem;
 }
 .info {
   margin-top: 1rem;
   font-size: 0.8rem;
 }
 footer button {
+  width: 5rem;
   margin-top: 1.2rem;
   margin-left: -20px;
   height: 2.8rem;
@@ -157,4 +156,29 @@ span {
   margin-top: 30px;
   padding: 1rem;
   color: #000000;
+}
+
+@media screen and (max-width: 390px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .shopping {
+    margin: 50px auto 10px auto;
+    width: 25rem;
+  }
+  input {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 876px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .shopping {
+    margin: 50px auto 10px auto;
+  }
 }
