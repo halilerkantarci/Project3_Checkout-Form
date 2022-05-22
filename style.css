@@ -51,11 +51,7 @@ i {
 .shipping {
   margin-bottom: 3rem;
 }
-.shopping {
-  border: 1px solid red;
-  height: 50vh;
-  width: 25rem;
-}
+
 footer {
   width: 100px;
   margin: auto;
@@ -77,4 +73,74 @@ footer button {
 .info {
   margin-top: 1rem;
   font-size: 0.8rem;
+}
+footer button {
+  margin-top: 1.2rem;
+  margin-left: -20px;
+  height: 2.8rem;
+  padding: 0.5rem 0;
+  border-radius: 10px;
+  border: none;
+  background-color: #f2994a;
+  color: white;
+  font-weight: 600;
+}
+.shopping {
+  background-color: #eeeeee;
+
+  height: auto;
+  width: 25rem;
+  border-radius: 10px;
+  color: #4e5150;
+}
+img {
+  width: 35%;
+  height: 150px;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.product {
+  display: flex;
+  padding: 1rem;
+}
+.vintage,
+.levi {
+  margin: 0.1rem 1.2rem 0.3rem 1.2rem;
+  font-weight: 700;
+}
+.vintage p,
+.levi p {
+  margin-top: 10px;
+}
+del {
+  font-size: 12px;
+  font-weight: 400;
+}
+.vintage p span {
+  color: #f2994a;
+}
+.count {
+  display: flex;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.count i {
+  background-color: #e0e0e0;
+  margin-left: 20px;
+  padding: 5px;
+}
+.count button {
+  margin-left: 20px;
+  padding: 5px;
+}
+.one {
+  border: none;
+}
+.common {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
 }
